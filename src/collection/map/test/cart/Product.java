@@ -20,6 +20,7 @@ public class Product {
         return price;
     }
 
+    //Product가 Key로 사용되고 있으니 equals, hashcode 구현
     @Override
     public boolean equals(Object object) {
         if (this == object) return true;
