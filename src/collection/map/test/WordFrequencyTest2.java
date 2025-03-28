@@ -11,10 +11,7 @@ public class WordFrequencyTest2 {
 
         Map<String, Integer> result = new HashMap<>();
         for (String word : words) {
-//            Integer count = result.getOrDefault(word, 0);
-//            result.put(word, count+1);
             result.put(word, result.getOrDefault(word, 0) + 1);
-
         }
 
         System.out.println(result);
