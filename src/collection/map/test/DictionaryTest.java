@@ -30,8 +30,8 @@ public class DictionaryTest {
         System.out.println("==단어 검색 단계==");
         while(true){
             System.out.print("찾을 영어 단어를 입력하세요 (종료는 'q'): ");
-
             String englishWord = sc.nextLine();
+
             if(englishWord.equals("q")){
                 break;
             }
