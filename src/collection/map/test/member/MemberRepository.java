@@ -16,8 +16,7 @@ public class MemberRepository {
     }
 
     public Member findById(String id){
-        Member member = memberMap.get(id);
-        return member;
+        return memberMap.get(id);
     }
 
     public Member findByName(String name){
